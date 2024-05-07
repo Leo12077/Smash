@@ -1,0 +1,17 @@
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+   
+}
+body {
+    overflow: hidden;
+}
+.animated-img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    margin-bottom: 50vh;
+}

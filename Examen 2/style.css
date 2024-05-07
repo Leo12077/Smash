@@ -1,0 +1,30 @@
+.contenedorxd {
+    margin-top: 20vh;
+
+}
+.seccion1 {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    float: left;
+    width: 50%;
+}
+.seccion2 {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    float: right;
+    width: 50%;
+}
+.section1vida {
+    text-align: right;
+    background-color: yellow;
+    width: 40%;
+    height: 10vh;
+}
+.section2vida {
+    text-align: left;
+    background-color: red;
+    width: 40%;
+    height: 10vh;
+}

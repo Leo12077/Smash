@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleccionar Personajes</title>
+    <link rel="stylesheet" href="Examen2.css">
+
+</head>
+<body>
+    <div class="containerj">
+        <section class="player player1">
+            <h2>JUGADOR 1</h2>
+            <div class="character-selection">
+                <img src="img/Phoenix.png" alt="personaje 1">
+                <button class="select-button" id="p1" onclick="seleccionarPersonajes1()">Seleccionar</button>
+                <img src="img/Reyna.png" alt="personaje 2">
+                <button class="select-button" id="p2" onclick="seleccionarPersonajes2('p2')">Seleccionar</button>
+                <img src="img/Omen.webp" alt="personaje 3">
+                <button class="select-button" id="p3" onclick="seleccionarPersonajes3('p3')">Seleccionar</button>
+                <img src="img/Viper.webp" alt="personaje 4">
+                <button class="select-button" id="p4" onclick="seleccionarPersonajes4('p4')">Seleccionar</button>
+            </div>
+        </section>
+        <section class="player player2">
+            <h2>JUGADOR 2</h2>
+            <div class="character-selection">
+                <img src="img/Phoenix.png" alt="personaje 1">
+                <button class="select-button" id="p1.2" onclick="seleccionarPersonajes2('p1.2')">Seleccionar</button>
+                <img src="img/Reyna.png" alt="personaje 2">
+                <button class="select-button" id="p2.2" onclick="seleccionarPersonajes2('p2.2')">Seleccionar</button>
+                <img src="img/Omen.webp" alt="personaje 3">
+                <button class="select-button" id="p3.2" onclick="seleccionarPersonajes2('p3.2')">Seleccionar</button>
+                <img src="img/Viper.webp" alt="personaje 4">
+                <button class="select-button" id="p4.2" onclick="seleccionarPersonajes2('p4.2')">Seleccionar</button>
+            </div>
+        </section>
+    </div>
+
+    <div class="selected-character selectedCharacter1">
+        <img src="img/caracteristicas.png" alt="Características del personaje 1" class="per">
+        <button onclick="checkSelection()"><img src="./img/Elegir.jpg" alt="" class="Elegir"></button>
+    </div>
+
+    <div class="selected-character selectedCharacter2">
+        <img src="img/caracteristicas.png" alt="Características del personaje 2" class="per">
+        <button onclick="checkSelection()"><img src="./img/Elegir.jpg" alt="" class="Elegir"></button>
+    </div>
+</div>
+<a href="Index.html"><img src="./img/Kill.webp" alt="" class="Spike"></a>
+</div>
+        <script src="Examen2.js"></script>
+</body>
+</html>

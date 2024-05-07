@@ -1,0 +1,329 @@
+body {
+    background-image: url(./img/fondo1.avif);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#Mapa1 {
+    background-image: url(./img/Mapa1.jpeg);
+    background-size: cover;
+    display: flex;
+    overflow: hidden;
+}
+
+#Mapa2 {
+    background-image: url(./img/Mapa2.webp);
+    background-size: cover;
+    display: flex;
+    overflow: hidden;
+}
+
+#Mapa3 {
+    background-image: url(./img/Mapa3.webp);
+    background-size: cover;
+    display: flex;
+    overflow: hidden;
+}
+
+#Mapa4 {
+    background-image: url(./img/Mapa4.webp);
+    background-size: cover;
+    display: flex;
+    overflow: hidden;
+}
+
+.Icebox {
+    width: 200px;
+    height: 200px;
+}
+
+.Ascent {
+    width: 200px;
+    height: 200px;
+}
+
+.Lotus {
+    width: 200px;
+    height: 200px;
+}
+
+.Sunset {
+    width: 200px;
+    height: 200px;
+}
+
+.container1 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 60vh;
+}
+.container {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 60vh;
+    background-color: black;
+    color: white;
+}
+.container ul {
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+}
+.container1 ul {
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+}
+.container ul img{
+    width: 70%;
+    height: 20vh;
+
+}
+.container1 ul img{
+    width: 70%;
+    height: 20vh;
+
+}
+.imagen {
+    text-align: center;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    width: 250px;
+    height: 30px;
+}
+.imagen img {
+    text-align: center;
+    width: 110%;
+    height: 15vh;
+}
+.section1 {
+    float: left;
+
+}
+.section2 {
+    float: right;
+
+}
+.section1 img {
+    width: 50%;
+    height: 80vh;
+}
+.section2 img {
+    width: 50%;
+    height: 80vh;
+}
+section ul {
+    list-style-type: none;  
+    text-decoration: none;
+    text-align: center;
+}
+section li {
+    float: left;
+    margin-right: 10px;
+    display: inline;
+}
+
+.containerj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    text-shadow: 5px 5px 15px red;
+}
+
+.character-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player {
+    margin: 0 20px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.player1 {
+    justify-content: flex-start; 
+}
+
+.player2 {
+    justify-content: flex-end; 
+}
+
+.select-button {
+    margin-top: 10px; 
+}
+
+.character-selection img {
+    width: 100px; 
+    height: auto; 
+}
+
+.selectedCharacter1 {
+    margin-right: auto; 
+}
+
+.selectedCharacter2 {
+    margin-left: auto; 
+}
+
+.Elegir{
+    width: 250px;
+    height: 50px;
+}
+
+.character-selection button{
+    background-color: rgba(164, 225, 73, 0.736);
+        border-radius: 20px;
+}
+
+.containerm {
+    position: relative;
+    width: 100vh;
+    height: 100vh;
+    overflow: hidden;
+   
+}
+
+.animated-img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    margin-bottom: 20vh;
+}
+    
+#img1 {
+    left: 0;
+    width: 300px;
+    height: 300px;
+}
+
+#img2 {
+    right: 0;
+    width: 300px;
+    height: 300px;
+}
+
+.per{
+    width: 250px;
+    height: 250px;
+}
+
+.Valorant{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.Agentes{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    text-shadow: 3px 3px 5px gold;
+}
+
+.Instrucciones{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    background-color: rgba(68, 132, 110, 0.903);
+    background-size: cover;
+    color: white;
+    border: solid;
+    border-color: gray;
+}
+
+.InstruccionesT{
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+}
+
+.InstruccionesD{
+    font-size: 20px;
+    text-shadow: 5px 5px 10px red;
+}
+
+.Spike{
+    width: 250px;
+    height: 150px;
+    float: right;
+}
+
+.contenedorxd {
+    margin-top: 10px;
+
+}
+.seccion1 {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    float: left;
+    width: 50%;
+}
+.seccion2 {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    float: right;
+    width: 50%;
+}
+.section1vida {
+    text-align: right;
+    background-color: yellow;
+    width: 40%;
+    height: 10vh;
+}
+.section2vida {
+    text-align: left;
+    background-color: red;
+    width: 40%;
+    height: 10vh;
+}
+
+.containeri {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+   
+}
+
+.animated-img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    margin-bottom: 50vh;
+}
+.imagentrollxddddlol1 img{
+    left: 0;
+}
+
+.imagentrollxddddlol2 img{
+    right: 0;
+  
+}
+.volteada {
+    transform: rotate(180deg); 
+  }
